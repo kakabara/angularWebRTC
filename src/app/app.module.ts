@@ -3,13 +3,18 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { WebPhoneComponent } from "./web-phone.component";
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WebPhoneComponent,
+
   ],
   imports: [
+    FormsModule,
     BrowserModule
   ],
   providers: [],
